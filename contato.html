@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcolheMente | Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="index.html">♡ Acolhe<span>Mente</span></a>
+
+    <nav class="nav">
+        <a href="index.html">Início</a>
+        <a href="atendimentos.html">Atendimentos</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a class="active" href="contato.html">Contato</a>
+        <a class="nav-cta" href="chat.html">Chat online</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="page-hero">
+        <span class="eyebrow">ESTAMOS AQUI PARA OUVIR</span>
+
+        <h1>Fale conosco</h1>
+
+        <p>
+            Tem alguma dúvida ou sugestão sobre o projeto?
+            Envie uma mensagem.
+        </p>
+    </section>
+
+    <section class="section contact-layout">
+
+        <div class="contact-copy">
+
+            <h2>Entre em contato com a nossa equipe.</h2>
+
+            <p>
+                Preencha o formulário ao lado.
+                Como este é um projeto escolar, o formulário
+                é demonstrativo e não envia dados para um servidor.
+            </p>
+
+            <div class="contact-method">
+                <span>✉</span>
+                <div>
+                    <strong>E-mail</strong>
+                    <p>contato@acolhemente.com.br (exemplo)</p>
+                </div>
+            </div>
+
+            <div class="contact-method">
+                <span>☏</span>
+                <div>
+                    <strong>Telefone</strong>
+                    <p>Adicione aqui um telefone oficial, se houver.</p>
+                </div>
+            </div>
+
+            <div class="contact-method">
+                <span>☏</span>
+                <div>
+                    <strong>Chat online</strong>
+                    <p><a href="chat.html">Acessar página demonstrativa</a></p>
+                </div>
+            </div>
+
+        </div>
+
+        <form class="contact-form" id="contactForm">
+
+            <h2>Envie sua mensagem</h2>
+
+            <label for="nome">Nome</label>
+            <input
+                id="nome"
+                name="nome"
+                type="text"
+                placeholder="Como podemos chamar você?"
+                required
+            >
+
+            <label for="email">E-mail</label>
+            <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="seuemail@exemplo.com"
+                required
+            >
+
+            <label for="mensagem">Mensagem</label>
+            <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="5"
+                placeholder="Escreva sua mensagem..."
+                required
+            ></textarea>
+
+            <button class="button button-primary full" type="submit">
+                Enviar mensagem →
+            </button>
+
+            <p class="form-feedback" id="formFeedback"></p>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer class="footer">
+    <a class="logo" href="index.html">♡ Acolhe<span>Mente</span></a>
+    <p>Acolhimento, orientação e apoio emocional.</p>
+    <small>Projeto Integrador • Desenvolvimento de Sistemas</small>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
